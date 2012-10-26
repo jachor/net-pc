@@ -4,7 +4,7 @@ TARGET     = net-pc
 # eg if you have a source file foo.c then list it here
 SOURCES = main.c
 SOURCES += ip.c ip_hw_pc.c ip_utils.c ip_arp.c
-SOURCES += ip_crc.c ip_icmp.c
+SOURCES += ip_crc.c ip_icmp.c ip_tcp.c
 # Include are located in the Include directory
 INCLUDES = -IInclude
 #######################################################################################
